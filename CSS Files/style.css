@@ -1,16 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
-    
+}
+body {
+    background-image: linear-gradient(45deg, rgba(42, 4, 122, 1), rgba(0, 0, 0, 1));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .navbar{
     display: flex;
     flex-direction: row;
 }
+.nav-img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2%;
+}
+.nav-buttons{
+    width: 20%;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: 2%;
+}
 .button1{
     font-family: 'Poppins', sans-serif;
-    
+    /* background-image: linear-gradient(45deg, rgba(42, 4, 122, 1), rgba(0, 0, 0, 1)); */
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px solid black;
+    color: white;
+    width: 7rem;
+    font-size: 1.5em;
+    margin-right: 2%;
 }
 .button2{
     font-family: 'Poppins', sans-serif;
-
+    background-color: #5707FF;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: 0px solid black;
+    border-radius: 8px;
+    font-size: 1.5em;
+    padding: 1% 5%;
+}
+.main{
+    display: flex;
+}
+.main-left{
+    width: 33%;
+    height: 80%;
+    margin-left: 3%;
+}
+.left-para{
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6em;
+}
+.main-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.main-right img{
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
